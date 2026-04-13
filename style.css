@@ -11,12 +11,20 @@
 }
 
 body {
+    user-select: none;
     background: var(--bg1);
     width: 100vw;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+.moves{
+    position: absolute;
+    top: 50px;
+    left: 50px;
 }
 
 .container {
@@ -69,6 +77,12 @@ body {
     cursor: default;
     transform: rotateY(180deg);
     background-color: rgba(45, 252, 45, 0.479);
+}
+.card.fly{
+    transform: translateY(-50px);
+}
+.card.gaiab{
+    opacity: 0;
 }
 
 .start-game {
