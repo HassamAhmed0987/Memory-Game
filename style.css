@@ -22,9 +22,13 @@ body {
     position: relative;
 }
 .moves{
+    font-size: 1.5rem;
     position: absolute;
     top: 50px;
     left: 50px;
+}
+.moves-count{
+    font-weight: bolder;
 }
 
 .container {
@@ -55,6 +59,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 1.5rem;
     color: transparent;
     cursor: pointer;
     transition: 0.5s ease;

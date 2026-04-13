@@ -90,7 +90,7 @@ function matchCheck() {
     movesCount--
     movesElement.textContent = movesCount
     if (movesCount === 0) {
-        alert("Game Over! Try Again")
+        alert("Out of moves! Try Again")
         movesCount = 20
         startGame()
     }
